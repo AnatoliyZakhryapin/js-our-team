@@ -63,7 +63,7 @@ const ourTeamDOMElement = document.getElementById("our-team");
 //                 `
 //             }
 //         }
-
+creaContentHtml(ourTeamDOMElement, outTeam)
 // ----------------------FUNZIONI----------------------------
 
 // Funzione per stampare il contenuto di un oggetto dentro un array
@@ -74,3 +74,17 @@ function stampaConsoleObjectOfArray(array){
         }
     }   
 }              
+
+// Funzione per creare il contenuto Html
+function creaContentHtml(DOMElement, array){
+    for(let i = 0; i < array.length; i++ ){
+        DOMElement.innerHTML += `
+            <div>
+                <h1>Member ${i + 1}</h1>
+                <p>Nome: ${array[i].nome}</p>
+                <p>Ruolo: ${array[i].ruolo}</p>
+                <p>Foto: ${array[i].foto}</p>
+            </div>
+        `;
+    }
+}        
