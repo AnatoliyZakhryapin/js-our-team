@@ -53,7 +53,7 @@
             for(let i = 0; i < array.length; i++ ){
                 DOMElement.InnerHtml += `
                     <div class="card text-center">
-                        <img src="${array[i].foto}" class="card-img-top">
+                        <img src="./../img/${array[i].foto}" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">${array[i].nome}</h5>
                              <p class="card-text">${array[i].ruolo}</p>
