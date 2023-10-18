@@ -69,7 +69,7 @@ stampaConsoleObjectOfArray(outTeam);
 function stampaConsoleObjectOfArray(array){
     for(let i = 0; i < array.length; i++){
         for(let key in array[i]){
-            console.log(array[i][key])
+            console.log(key,": ",array[i][key])
         }
     }   
 }              
