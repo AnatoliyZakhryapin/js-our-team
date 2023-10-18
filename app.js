@@ -49,6 +49,7 @@ stampaConsoleObjectOfArray(outTeam);
 // - Stampare le informazioni sul DOM sottoforma di stringhe
 //     - Creare il contenuto html della pagina 
 //     - Creare ourTeamDOMElement tramite id "our-team"
+const ourTeamDOMElement = document.getElementById("our-team");
 //     - Creare il contenuto tramite funzione creaContentHtml
 //         function creaContentHtml(DOMElement, array){
 //             for(let i = 0; i < array.length; i++ ){
