@@ -43,7 +43,9 @@ const outTeam = [
 //                 }
 //             }
 //         }
-//     - Invocare la funzione stampaConsoleObjectOfArray       
+//     - Invocare la funzione stampaConsoleObjectOfArray   
+
+stampaConsoleObjectOfArray(outTeam);
 // - Stampare le informazioni sul DOM sottoforma di stringhe
 //     - Creare il contenuto html della pagina 
 //     - Creare ourTeamDOMElement tramite id "our-team"
