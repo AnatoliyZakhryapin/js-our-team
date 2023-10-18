@@ -39,7 +39,7 @@
                         Member ${i}
                         Nome: ${array[i].nome}
                         Ruolo: ${array[i].ruolo}
-                        <img class="image-member" src="${array[i].foto}"> 
+                        <img class="image-member" src="./../img/${array[i].foto}"> 
                     </div>
                 `
             }
