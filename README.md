@@ -20,10 +20,10 @@
             for(let i = 0; i < array.length; i++ ){
                 DOMElement.InnerHtml += `
                     <div>
-                        Member ${i}
-                        Nome: ${array[i].nome}
-                        Ruolo: ${array[i].ruolo}
-                        Foto: ${array[i].foto}
+                        <h1>Member ${i + 1}</h1>
+                        <p>Nome: ${array[i].nome}</p>
+                        <p>Ruolo: ${array[i].ruolo}</p>
+                        <p>Foto: ${array[i].foto}</p>
                     </div>
                 `
             }
