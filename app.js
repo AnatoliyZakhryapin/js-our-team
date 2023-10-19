@@ -2,7 +2,7 @@
 
 // - Creare ourTeam con gli oggetti
 //     const ourTeam = [{nome: "nome", ruolo: "ruolo", foto: "link"}, {....}....]
-const outTeam = [
+const ourTeam = [
     {
         nome: "Wayne Barnett",
         ruolo: "Founder & CEO",
@@ -45,7 +45,7 @@ const outTeam = [
 //         }
 //     - Invocare la funzione stampaConsoleObjectOfArray   
 
-stampaConsoleObjectOfArray(outTeam);
+stampaConsoleObjectOfArray(ourTeam);
 // - Stampare le informazioni sul DOM sottoforma di stringhe
 //     - Creare il contenuto html della pagina 
 //     - Creare ourTeamDOMElement tramite id "our-team"
@@ -63,7 +63,7 @@ const ourTeamDOMElement = document.getElementById("our-team");
 //                 `
 //             }
 //         }
-creaContentHtml(ourTeamDOMElement, outTeam)
+creaContentHtml(ourTeamDOMElement, ourTeam)
 // ----------------------FUNZIONI----------------------------
 
 // Funzione per stampare il contenuto di un oggetto dentro un array

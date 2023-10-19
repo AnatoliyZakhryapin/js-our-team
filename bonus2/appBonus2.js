@@ -2,7 +2,7 @@
 
 // - Creare ourTeam con gli oggetti
 
-const outTeam = [
+const ourTeam = [
     {
         nome: "Wayne Barnett",
         ruolo: "Founder & CEO",
@@ -35,12 +35,12 @@ const outTeam = [
     },
 ]
 // - Stampare in console per ogni membro del team le sue informazioni
-stampaConsoleObjectOfArray(outTeam);
+stampaConsoleObjectOfArray(ourTeam);
 
 
 // - Stampare le informazioni sul DOM sottoforma di stringhe
 const ourTeamDOMElement = document.getElementById("our-team");
-creaCardContentHtml(ourTeamDOMElement, outTeam)
+creaCardContentHtml(ourTeamDOMElement, ourTeam)
 
 // ----------------------FUNZIONI----------------------------
 
