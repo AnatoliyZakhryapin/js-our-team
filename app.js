@@ -1,7 +1,6 @@
 // #  Our Team
 
 // - Creare ourTeam con gli oggetti
-//     const ourTeam = [{nome: "nome", ruolo: "ruolo", foto: "link"}, {....}....]
 const ourTeam = [
     {
         nome: "Wayne Barnett",
@@ -34,36 +33,16 @@ const ourTeam = [
         foto: "barbara-ramos-graphic-designer.jpg"
     },
 ]
-// - Stampare in console per ogni membro del team le sue informazioni
-//     - Creare funzione stampaConsoleObjectOfArray
-//         function stampaConsoleObjectOfArray(array){
-//             for(let i = 0; i < array.length; i++){
-//                 for(let key in array[i]){
-//                     console.log(array[i][key])
-//                 }
-//             }
-//         }
-//     - Invocare la funzione stampaConsoleObjectOfArray   
 
+// - Stampare in console per ogni membro del team le sue informazioni 
 stampaConsoleObjectOfArray(ourTeam);
+
 // - Stampare le informazioni sul DOM sottoforma di stringhe
-//     - Creare il contenuto html della pagina 
-//     - Creare ourTeamDOMElement tramite id "our-team"
 const ourTeamDOMElement = document.getElementById("our-team");
+
 //     - Creare il contenuto tramite funzione creaContentHtml
-//         function creaContentHtml(DOMElement, array){
-//             for(let i = 0; i < array.length; i++ ){
-//                 DOMElement.InnerHtml += `
-//                     <div>
-//                         Member ${i}
-//                         Nome: ${array[i].nome}
-//                         Ruolo: ${array[i].ruolo}
-//                         Foto: ${array[i].foto}
-//                     </div>
-//                 `
-//             }
-//         }
 creaContentHtml(ourTeamDOMElement, ourTeam)
+
 // ----------------------FUNZIONI----------------------------
 
 // Funzione per stampare il contenuto di un oggetto dentro un array
